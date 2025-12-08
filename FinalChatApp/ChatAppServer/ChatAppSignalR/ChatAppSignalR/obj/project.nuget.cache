@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZwFdOxrdt7s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\ChatAppSignalR\\ChatAppSignalR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\helmy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\helmy\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

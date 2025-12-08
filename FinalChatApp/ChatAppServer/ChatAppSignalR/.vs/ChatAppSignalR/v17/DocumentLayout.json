@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{016AB74C-CC90-4E7B-BE81-EF2B28000567}|ChatAppSignalR\\ChatAppSignalR.csproj|c:\\users\\helmy\\desktop\\fullchatapp\\finalchatapp\\chatappserver\\chatappsignalr\\chatappsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016AB74C-CC90-4E7B-BE81-EF2B28000567}|ChatAppSignalR\\ChatAppSignalR.csproj|solutionrelative:chatappsignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016AB74C-CC90-4E7B-BE81-EF2B28000567}|ChatAppSignalR\\ChatAppSignalR.csproj|c:\\users\\helmy\\desktop\\fullchatapp\\finalchatapp\\chatappserver\\chatappsignalr\\chatappsignalr\\controllers\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{016AB74C-CC90-4E7B-BE81-EF2B28000567}|ChatAppSignalR\\ChatAppSignalR.csproj|solutionrelative:chatappsignalr\\controllers\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{016AB74C-CC90-4E7B-BE81-EF2B28000567}|ChatAppSignalR\\ChatAppSignalR.csproj|c:\\users\\helmy\\desktop\\fullchatapp\\finalchatapp\\chatappserver\\chatappsignalr\\chatappsignalr\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{016AB74C-CC90-4E7B-BE81-EF2B28000567}|ChatAppSignalR\\ChatAppSignalR.csproj|solutionrelative:chatappsignalr\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\ChatAppSignalR\\Program.cs",
+              "RelativeDocumentMoniker": "ChatAppSignalR\\Program.cs",
+              "ToolTip": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\ChatAppSignalR\\Program.cs",
+              "RelativeToolTip": "ChatAppSignalR\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:26:27.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\ChatAppSignalR\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ChatAppSignalR\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\ChatAppSignalR\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ChatAppSignalR\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T17:58:36.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\ChatAppSignalR\\Controllers\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatAppSignalR\\Controllers\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\helmy\\Desktop\\FullChatApp\\FinalChatApp\\ChatAppServer\\ChatAppSignalR\\ChatAppSignalR\\Controllers\\ChatHub.cs",
+              "RelativeToolTip": "ChatAppSignalR\\Controllers\\ChatHub.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:24:37.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
