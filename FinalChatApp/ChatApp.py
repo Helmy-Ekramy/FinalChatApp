@@ -3,7 +3,6 @@ from PyQt6.QtGui import *
 from PyQt6.QtCore import *
 from signalrcore.hub_connection_builder import HubConnectionBuilder
 import sys
-import json
 
 class ChatWindow(QWidget):
     update_users_signal = pyqtSignal(list)
@@ -11,7 +10,7 @@ class ChatWindow(QWidget):
     
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Helmy Chat ✨")
+        self.setWindowTitle("Helmy Chat App")
         self.setFixedSize(600, 700)
         self.setStyleSheet("""
             QWidget {background-color: #1e1e1e; color: white; font-size: 14px;}
@@ -155,7 +154,7 @@ class ChatWindow(QWidget):
 
         try:
             self.connection = HubConnectionBuilder() \
-                .with_url("https://linguistical-vacatable-candelaria.ngrok-free.dev/chatHub") \
+                .with_url("http://localhost:5283/chatHub") \
                 .with_automatic_reconnect({
                     "type": "interval",
                     "intervals": [0, 2000, 5000, 10000]
@@ -167,10 +166,13 @@ class ChatWindow(QWidget):
             self.connection.on("UpdateGroups", self.handle_groups_update)
 
             self.connection.start()
+
             import time
             time.sleep(0.8)
+
             
             self.connection.send("RegisterUser", [username])
+
             self.connected = True
             self.current_username = username
             self.username_input.setEnabled(False)
@@ -185,6 +187,7 @@ class ChatWindow(QWidget):
             
         except Exception as e:
             QMessageBox.critical(self, "Connection Error", f"Failed to connect: {str(e)}")
+
 
     def request_online_users(self):
         if self.connection and self.connected:
@@ -260,6 +263,7 @@ class ChatWindow(QWidget):
         from_user, msg = args
         self.private_chat_area.append(f"<b>{from_user}:</b> {msg}")
 
+
     def create_group(self):
         if not self.connection or not self.connected:
             QMessageBox.warning(self, "Error", "You are not connected!")
@@ -327,9 +331,9 @@ if __name__ == "__main__":
     window1 = ChatWindow()
     window1.show()
     
-    # Second window for testing
-    window2 = ChatWindow()
-    window2.move(window1.x() + window1.width() + 20, window1.y())
-    window2.show()
+    # # Second window for testing
+    # window2 = ChatWindow()
+    # window2.move(window1.x() + window1.width() + 20, window1.y())
+    # window2.show()
     
     sys.exit(app.exec())
